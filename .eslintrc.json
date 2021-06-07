@@ -11,7 +11,7 @@
 		"sourceType": "module"
 	},
 	"rules": {
-		"allowForLoopAfterthoughts": true,
+		"allowForLoopAfterthoughts": 0, //true,
 		// "camelcase": "off",
 		"prettier/prettier": [
 			"error",
