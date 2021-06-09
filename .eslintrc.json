@@ -11,6 +11,7 @@
 		"sourceType": "module"
 	},
 	"rules": {
+		"no-console": "off",
 		"allowForLoopAfterthoughts": 0, //true,
 		// "camelcase": "off",
 		"prettier/prettier": [
