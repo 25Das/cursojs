@@ -13,7 +13,7 @@
 	"rules": {
 		"no-console": "off",
 		"no-alert": "off",
-		"allowForLoopAfterthoughts": 0, //true,
+		"allowForLoopAfterthoughts": true, //0,
 		// "camelcase": "off",
 		"prettier/prettier": [
 			"error",
