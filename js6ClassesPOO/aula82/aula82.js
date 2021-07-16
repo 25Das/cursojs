@@ -47,11 +47,11 @@ class Pessoa {
 	}
 
 	get nomeCompleto() {
-		return this.nome + ' ' + this.sobrenome;
+		return `${this.nome} ${this.sobrenome}`;
 	}
 
 	set nomeCompleto(value) {
-		let valor = value.split(' ');
+		const valor = value.split(' ');
 		this.nome = valor.shift();
 		this.sobrenome = valor.join(' ');
 	}
