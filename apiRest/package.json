@@ -2,5 +2,15 @@
 	"name": "apiRest",
 	"version": "1.0.0",
 	"main": "index.js",
-	"license": "MIT"
+	"scripts": {
+		"dev": "nodemon server.js"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"nodemon": "^2.0.12",
+		"sucrase": "^3.20.1"
+	},
+	"dependencies": {
+		"express": "^4.17.1"
+	}
 }
