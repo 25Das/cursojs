@@ -1,16 +1,21 @@
 {
-	"name": "apiRest",
+	"name": "api_rest",
 	"version": "1.0.0",
 	"main": "index.js",
 	"scripts": {
-		"dev": "nodemon server.js"
+		"dev": "nodemon server.js",
+		"migrations": "sequelize db:migrate"
 	},
 	"license": "MIT",
 	"devDependencies": {
 		"nodemon": "^2.0.12",
+		"sequelize-cli": "^6.2.0",
 		"sucrase": "^3.20.1"
 	},
 	"dependencies": {
-		"express": "^4.17.1"
+		"dotenv": "^10.0.0",
+		"express": "^4.17.1",
+		"mariadb": "^2.5.4",
+		"sequelize": "^6.6.5"
 	}
 }
