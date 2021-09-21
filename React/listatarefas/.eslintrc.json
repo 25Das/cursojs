@@ -29,6 +29,7 @@
 		"no-param-reassign": "off",
 		"camelcase": "off",
 		"react/jsx-filename-extension": "off",
+		"react/state-in-constructor": "off",
 		"prettier/prettier": [
 			"error",
 			{
