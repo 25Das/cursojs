@@ -13,9 +13,9 @@ const requisicao = () =>
 function* exampleRequest() {
 	try {
 		yield call(requisicao);
-		yield put(actions.clicaBotaoSuccess);
+		yield put(actions.clicaBotaoSuccess());
 	} catch (error) {
-		yield put(actions.clicaBotaoFailure);
+		yield put(actions.clicaBotaoFailure());
 	}
 }
 
